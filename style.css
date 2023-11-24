@@ -172,47 +172,40 @@ nav li :hover {
 .Textbooks {
     background-color: #ff5733; 
     height: 250px;
-    display: flex;
-    justify-content: center;
+   
 
 }
 
 .Science {
     /* background-color: #33ff57;  */
     height: 250px;
-    display: flex;
-    justify-content: center;
+   
 
 }
 
 .History {
     /* background-color: #3366ff;   */
     height: 250px;
-    display: flex;
-    justify-content: center;
-
+    
 }
 .Biography {
     /* background-color: #ff5733;  */
     height: 255px;
-    display: flex;
-    justify-content: center;
+    
 
 }
 
 .Adventure {
     /* background-color: #33ff57;  */
     height: 255px;
-    display: flex;
-    justify-content: center;
+   
 
 }
 
 .Fantasy {
     /* background-color: #3366ff;  */
     height: 255px;
-    display: flex;
-    justify-content: center;
+   
 
 }
 .container {
@@ -224,7 +217,7 @@ nav li :hover {
 
   .img1 {
 
-    width: 700px;
+    width: 650px;
     height: 400px;
   }
   .img2 {
@@ -239,11 +232,9 @@ nav li :hover {
   .small-div {
     text-align: center;
   }
-  .big-div p {
-    margin-top: 90px;
-    display: flex;
-    text-align: center;
+  .small-div P {
+     padding-top:20px; 
+      }
 
-  }
-
+  
   
