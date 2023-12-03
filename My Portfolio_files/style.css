@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Reset some default styles */
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: rgb(243, 232, 232);
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;  
+    z-index: 999;
+    width: 100%;
+}
+
+/* Style the navigation */
+nav li:hover {
+    background-color: #6e6161;
+}
+nav li:hover + body{
+    background-color: rgb(238, 17, 17);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
